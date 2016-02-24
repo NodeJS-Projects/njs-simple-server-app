@@ -14,7 +14,7 @@ var mimeTypes = {
     "text": "text/plain"
 };
 
-var port = 3000;
+var port = process.env.PORT || 8080;
 http.createServer(function (req, res) {
 
     var uri = url.parse(req.url).pathname;
