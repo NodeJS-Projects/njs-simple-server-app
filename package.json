@@ -1,0 +1,11 @@
+{
+  "name": "njs-simple-server-app",
+  "version": "1.0.0",
+  "description": "NodeJS Simple Server App",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Vaibhav Desai",
+  "license": "ISC"
+}
